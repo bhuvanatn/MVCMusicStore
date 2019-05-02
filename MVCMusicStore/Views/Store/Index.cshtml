@@ -12,6 +12,11 @@
 {
 <li>
     @Html.ActionLink(genreName, "Browse", new { genre = genreName }, null)
+
+    @if (ViewBag.Starred.Contains(genreName))
+    {
+        <img src="../../Content/Images/star.png" alt="Starred element" />
+    }
 </li>
 }
 

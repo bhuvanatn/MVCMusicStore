@@ -22,7 +22,7 @@ namespace MVCMusicStore.Controllers
                 NumberOfGenres = genres.Count(),
                 Genres = genres
             };
-
+            ViewBag.Starred = new List<string> { "Rock", "Jazz" };
             return this.View(viewModel);
         }
         public ActionResult Browse(string genre)
