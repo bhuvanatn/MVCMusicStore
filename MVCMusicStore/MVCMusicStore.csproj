@@ -230,6 +230,7 @@
     <Content Include="Views\Store\Index.cshtml" />
     <Compile Include="ViewModel\StoreBrowseViewModel.cs" />
     <Content Include="Views\Store\Browse.cshtml" />
+    <Content Include="Views\Store\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
